@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="divOne">
+        <input type="text" placeholder="enter your city" />
+        <button onclick="click">
+          <img src="images/magnifying-glass.png" alt="" />
+        </button>
+      </div>
+
+      <div id="divTwo">
+        <img src="images/sun.png" alt="" />
+        <p>----</p>
+      </div>
+
+      <div id="divThree">
+        <h2>----</h2>
+        <div id="tempStatus">
+          <img src="images/temperature.png" alt="" />
+          <p>---</p>
+        </div>
+      </div>
+
+      <div id="divFour">
+        <div id="down1">
+          <div><img src="images/humidity.png" alt="" srcset="" /></div>
+          <div>
+            <p>humidity</p>
+            <p id="humidity">---</p>
+          </div>
+        </div>
+        <div id="down2">
+          <div><img src="images/wind (1).png" alt="" /></div>
+          <div>
+            <p>wind Speed</p>
+            <p id="wind_speed">---</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
